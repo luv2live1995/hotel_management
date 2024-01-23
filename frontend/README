@@ -1,0 +1,14 @@
+Shortcut keys : 
+    Delete one line, copy to clipboard : Ctrl X
+
+Block level, inline level 
+    Inline : takes up as much width as necessary
+    Block  : starts on a new line, occupy the full width available
+
+CSS Property :
+    line-height :  is used to control the vertical space between lines of text
+    margin-auto :  is a CSS shorthand property that is used to horizontally center a block-level element within its containing element
+
+Django
+    venv : virtual environment
+    Còn lại : cài đặt môi trường Django bằng pip 

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>FPT Japan Employee Portal</title>
+        <!-- Replace CDN with corresponding CSS, JS files -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="styles/js/login.js"></script>
+        <link rel="stylesheet" href="styles/css/login.css">
+
+    </head>
+    <body>
+        <div class="login-main">
+            <div class="login-logo">
+                <img src="assets/" alt="">
+                <b>Hotel management</b>
+            </div>
+            <div class="login-block">
+                <form class="form-horizontal ng-untouched ng-pristine ng-invalid" novalidate>
+                    <div class="form-group row" >
+                        <input id="userId" class="form-control" placeholder="Username" type="text" >
+                        <span class="fa fas fa-user form-control-feedback"></span>
+                    </div>
+                    <div class="form-group row">
+                        <input id="password" class="form-control" placeholder="Password" type="password">
+                        <span class="fa fa-lock form-control-feedback"></span>
+                    </div>
+                    <div class="form-group row">
+                        <input type="checkbox" name="alternateLoginMode" value="undefined">
+                        <label class="control-label" for="alternateLoginMode">Login with alternative password</label>
+                    </div>
+                    <div class="form-group row" style="text-align: center;">
+                        <button class="btn btn-primary">Sign in</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

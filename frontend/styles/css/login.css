@@ -1,0 +1,40 @@
+.body {
+    background-color: #d2d6de;
+}
+
+.login-main {
+    width: 400px;
+    margin: 7% auto;
+}
+
+.login-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-logo img {
+    vertical-align: middle;
+}
+
+.login-logo b {
+    margin-left: 10px;
+}
+
+.login-block {
+    background: #fff;
+    padding: 30px;
+    color: #666;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* .form-control-feedback {
+    color: #777;
+    font-size: 18px;
+    margin-top: 0px;
+    width: 34px; 
+    height: 34px;
+    position: absolute;
+    text-align: center;
+    line-height: 34px;
+} */
