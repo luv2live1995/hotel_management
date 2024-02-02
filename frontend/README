@@ -10,5 +10,10 @@ CSS Property :
     margin-auto :  is a CSS shorthand property that is used to horizontally center a block-level element within its containing element
 
 Django
+    Nên gói gọn tất cả bằng conda
+
     venv : virtual environment
     Còn lại : cài đặt môi trường Django bằng pip 
+
+
+    django-admin startproject first_project
